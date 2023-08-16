@@ -5,6 +5,7 @@
     min-width: 100px;
     padding: 9px 16px;
     border-radius: 4px;
+    font-family: 'TikTokFont', sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
     cursor: pointer;
@@ -84,4 +85,19 @@
 .large {
     min-width: 136px;
     padding: 14px 16px;
+}
+
+// Custom btn upload
+.upload-btn {
+    border-radius: 2px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    color: var(--text-color);
+    padding: 0 16px;
+    height: 36px;
+    font-weight: 600;
+
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.12);
+        background-color: rgba(22, 24, 35, 0.03);
+    }
 }
