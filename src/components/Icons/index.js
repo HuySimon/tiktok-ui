@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+// import classNames from 'classnames';
 
 // Header Icons
 export const UploadIcon = ({ width = '2rem', height = '2rem', className }) => (

@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { FaEllipsisVertical, FaEarthAsia } from 'react-icons/fa6';
 import Tippy from '@tippyjs/react';
@@ -23,7 +22,6 @@ import {
     UploadIcon,
     UserIcon,
 } from '~/components/Icons';
-// import Search from '../Search';
 
 const cx = classNames.bind(styles);
 
