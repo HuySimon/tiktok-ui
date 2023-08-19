@@ -20,10 +20,19 @@
     justify-content: space-between;
 }
 
+.logo-link {
+    display: flex;
+}
+
 // Actions
 .actions {
     display: flex;
     align-items: center;
+}
+
+.message-icon,
+.inbox-icon {
+    display: flex;
 }
 
 .more-btn {

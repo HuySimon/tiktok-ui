@@ -2,7 +2,9 @@ import classNames from 'classnames/bind';
 import { FaEllipsisVertical, FaEarthAsia } from 'react-icons/fa6';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import { Link } from 'react-router-dom';
 
+import routesConfig from '~/config/routes';
 import Button from '~/components/Button';
 import Menu from '~/components/Popper/Menu';
 import Search from '~/components/Layouts/components/Search';
@@ -106,9 +108,9 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <div className={cx('logo')}>
+                <Link to={routesConfig.home} className={'logo-link'}>
                     <img src={images.logo} alt="Tiktok" />
-                </div>
+                </Link>
 
                 {/* Begin Search */}
                 <Search />
@@ -122,12 +124,12 @@ function Header() {
                                 Upload
                             </Button>
                             <Tippy delay={[0, 200]} content="Messages" placement="bottom">
-                                <button className={cx('action-btn')}>
+                                <button className={cx('action-btn', 'message-icon')}>
                                     <MessageIcon />
                                 </button>
                             </Tippy>
                             <Tippy delay={[0, 200]} content="Inbox" placement="bottom">
-                                <button className={cx('action-btn', 'notify-inbox')}>
+                                <button className={cx('action-btn', 'inbox-icon')}>
                                     <InboxIcon />
                                 </button>
                             </Tippy>
