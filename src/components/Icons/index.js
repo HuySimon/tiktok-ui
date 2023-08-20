@@ -3,7 +3,7 @@
 // Header Icons
 export const UploadIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 16 16"
@@ -20,7 +20,7 @@ export const UploadIcon = ({ width = '2rem', height = '2rem', className }) => (
 
 export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -37,7 +37,7 @@ export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) 
 
 export const InboxIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 32 32"
@@ -83,7 +83,7 @@ export const XCircleIcon = ({ width = '1.6rem', height = '1.6rem' }) => (
 
 export const UserIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -100,7 +100,7 @@ export const UserIcon = ({ width = '2rem', height = '2rem', className }) => (
 
 export const FavoriteIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -117,7 +117,7 @@ export const FavoriteIcon = ({ width = '2rem', height = '2rem', className }) => 
 
 export const CoinIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 20 20"
@@ -139,7 +139,7 @@ export const CoinIcon = ({ width = '2rem', height = '2rem', className }) => (
 
 export const SettingIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -156,7 +156,7 @@ export const SettingIcon = ({ width = '2rem', height = '2rem', className }) => (
 
 export const LanguageIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -173,7 +173,7 @@ export const LanguageIcon = ({ width = '2rem', height = '2rem', className }) => 
 
 export const HelpIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -190,7 +190,7 @@ export const HelpIcon = ({ width = '2rem', height = '2rem', className }) => (
 
 export const KeyboardIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -207,7 +207,7 @@ export const KeyboardIcon = ({ width = '2rem', height = '2rem', className }) => 
 
 export const DarkmodeIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
@@ -224,7 +224,7 @@ export const DarkmodeIcon = ({ width = '2rem', height = '2rem', className }) => 
 
 export const LogoutIcon = ({ width = '2rem', height = '2rem', className }) => (
     <svg
-        class={className}
+        className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
