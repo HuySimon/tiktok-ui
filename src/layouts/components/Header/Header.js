@@ -118,11 +118,11 @@ function Header() {
 
                 {/* Begin actions */}
                 <div className={cx('actions')}>
+                    <Button className={cx('upload-btn')} leftIcon={<UploadIcon />} outline>
+                        Upload
+                    </Button>
                     {currentUser ? (
                         <>
-                            <Button className={cx('upload-btn')} leftIcon={<UploadIcon />} outline>
-                                Upload
-                            </Button>
                             <Tippy delay={[0, 200]} content="Messages" placement="bottom">
                                 <button className={cx('action-btn', 'message-icon')}>
                                     <MessageIcon />
@@ -136,7 +136,6 @@ function Header() {
                         </>
                     ) : (
                         <>
-                            <Button text>Upload</Button>
                             <Button primary>Log in</Button>
                         </>
                     )}
